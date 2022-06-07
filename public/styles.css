@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  background-color: #FAD4D4;
+  position: absolute;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.navBar {
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2em;
+  letter-spacing: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  letter-spacing: 3px;
+}
+
+li a {
+  display: block;
+  color: #50394c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ef9f9f;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 290px;
+  margin: 0 200px 25px 50px;
+  text-align: center;
+  font-family: sans-serif;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f47c7c;
+  letter-spacing: 3px;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.extra {
+  text-align: center;
+  justify-content: center;
+}
+
+.singleProduct {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.singleProduct img {
+  height: 200px;
+}
+
+.pageButton {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.pageButton:hover {
+  opacity: 0.7;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f47c7c;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-left: 88px ;
+} 
+
+
+
+
